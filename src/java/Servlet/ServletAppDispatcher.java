@@ -92,10 +92,10 @@ public class ServletAppDispatcher extends HttpServlet {
     ControllerInterface getHandler(HttpServletRequest request) {
         ControllerInterface c = null;
 
-        String nomeApp = request.getContextPath();
+       
         String nomeServletReq = request.getPathInfo();
-        String nomeServletURL = request.getRequestURI();
-        System.out.println(nomeApp+"|"+nomeServletReq+"|"+nomeServletURL);
+        
+        
 
         
         if (nomeServletReq.equals("/")) {
