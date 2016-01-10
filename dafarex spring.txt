@@ -1,0 +1,8 @@
+- progetto web nuovo
+- no spring framework
+- inclusione N librerie Spring
+- package DAO -> marcato come repository
+
+- gestione datasource o come prima (locale al costruttore del DaoManager oppure come oggeto singleton attivato da AppContest
+                                    descritto in app cont .xml)
+- Controller : annotazione diuna classe controoler simgleton con i diversi metodi mappati da direttiva requestMap
